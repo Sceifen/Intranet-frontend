@@ -41,12 +41,13 @@ export function Footer({ brandName, brandLink, routes }) {
 
 Footer.defaultProps = {
   brandName: "Cubo Sistemas",
-  brandLink: "https://www.creative-tim.com",
+  brandLink: "https://www.cubosis.com.br/",
   routes: [
-    { name: "Creative Tim", path: "https://www.creative-tim.com" },
-    { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-    { name: "Blog", path: "https://www.creative-tim.com/blog" },
-    { name: "License", path: "https://www.creative-tim.com/license" },
+    { name: "OS Plus 5.0", path: "https://www.cubosis.com.br/os-plus/" },
+    { name: "OS Mini", path: "https://www.cubosis.com.br/os-mini/" },
+    { name: "CobCloud", path: "https://cobcloud.com.br/" },
+    { name: "Quem somos", path: "https://www.cubosis.com.br/quem-somos/" },
+    { name: "Contato", path: "hhttps://www.cubosis.com.br/contato/" },
   ],
 };
 
